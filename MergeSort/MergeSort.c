@@ -56,13 +56,21 @@ void Merge(float Array[], int LeftIndex, int Middle,int RightIndex){
 		}
 
 		y++;
-	}
+	}	
+	printf("\n Left sub-array printing\n");
+	print(Left,8);
+	printf("\n\n");
 	while (x<Point2){
 	
 		Array[y]=Right[x];
 		x++;y++;
 	
 	}
+
+	
+	printf("\n Right Sub-array printing\n");
+	print(Right,8);
+	printf("\n\n");
 }
 
 
